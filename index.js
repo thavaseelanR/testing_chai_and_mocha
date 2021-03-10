@@ -1,3 +1,4 @@
+const myClass = require('./my-class');
 
 module.exports = {
     sayHellow() {
@@ -10,5 +11,6 @@ module.exports = {
         return Promise.resolve(a + b);
     }
 }
+
 
 
